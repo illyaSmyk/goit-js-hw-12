@@ -40,7 +40,7 @@ async function onSubmit(e) {
   page = 1;
   clearGallery();
   hideLoadMoreButton();
-  showLoader();
+  showLoader(); // hhghsdghshj//
 
   try {
     const data = await getImagesByQuery(query, page);
